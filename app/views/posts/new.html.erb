@@ -1,0 +1,10 @@
+<%= turbo_frame_tag :modal do %>
+ <div data-controller="turbo" data-action="turbo:submit-end->turbo#submitEnd">
+  <h1>New post</h1>
+
+   <%= render "form", post: @post %>
+
+  <br>
+
+ 
+<%end%>
