@@ -1,5 +1,45 @@
 # README
+Rails Hotwire is the Rails approach for building modern interactive apps with minimal custom JavaScript.
 
+It mainly includes:
+
+Turbo
+
+Turbo Drive: speeds up page navigation without full reloads
+
+Turbo Frames: updates only parts of a page
+
+Turbo Streams: sends HTML updates to the browser in real time
+
+Stimulus
+
+Small JavaScript controllers for UI behavior like dropdowns, modals, tabs, form interactions
+
+Why use Hotwire in Rails
+
+Less frontend complexity
+
+Server-rendered HTML stays central
+
+Faster development
+
+Real-time updates are easier
+
+No need for a heavy SPA in many apps
+
+Example idea
+
+Instead of building a React frontend for comments:
+
+Rails renders the comments
+
+Turbo Streams can append a new comment instantly
+
+Stimulus can handle small UI behavior like toggling the form
+
+Simple mental model
+
+Turbo = page updates and navigation
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
